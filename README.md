@@ -1,4 +1,3 @@
-
 IntelliHomeControl / Android
 ============================
 
@@ -13,3 +12,8 @@ Features
  - Send commands to control them
  - Display a history of events
  - Manage users in the system
+
+Screenshots
+-----------
+
+![Screenshot](https://raw.github.com/rycus86/IntelliHomeControl-android/master/pictures/screenshots.png)
