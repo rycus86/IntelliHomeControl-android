@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="history_alternate_list_color">#80CCCCFF</color>
+
+    <color name="status_connected">#CC99EE99</color>
+    <color name="status_disconnected">#CCEE9999</color>
+
+    <color name="navigation_checked_item">#80000000</color>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Network Preferences">
+
+        <ListPreference
+            android:key="communication.mode"
+            android:title="Network mode"
+            android:defaultValue="mcast"
+            android:entries="@array/pref_network_modes_names"
+            android:entryValues="@array/pref_network_modes_values"/>
+
+        <EditTextPreference
+            android:key="communication.host"
+            android:title="Server host"
+            android:defaultValue="227.1.1.10"/>
+
+        <EditTextPreference
+            android:key="communication.port"
+            android:title="Server port"
+            android:defaultValue="49001"
+            android:inputType="numberDecimal"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout xmlns:grid="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/hist_filters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="5dp"
+        android:background="#CCCCCC">
+
+        <TextView
+            android:id="@+id/hist_label_from"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="From:"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/hist_txt_from_date"
+            android:text="2013-12-01"
+            android:focusable="false"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/hist_txt_from_time"
+            android:text="09:12:25"
+            android:focusable="false"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/hist_filter_toggle"
+            android:src="@drawable/ic_filter_expand"
+            grid:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/hist_label_to"
+            android:padding="5dp"
+            grid:layout_row="1"
+            grid:layout_column="0"
+            android:textSize="20sp"
+            android:text="To:"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/hist_txt_to_date"
+            android:text="2013-12-31"
+            android:focusable="false"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/hist_txt_to_time"
+            android:text="09:12:25"
+            android:focusable="false"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/hist_label_device"
+            android:padding="5dp"
+            grid:layout_row="2"
+            grid:layout_column="0"
+            android:textSize="20sp"
+            android:text="Device:"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/hist_label_device_name"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="Test device"
+            android:textStyle="bold|italic"
+            android:visibility="gone"/>
+
+    </android.support.v7.widget.GridLayout>
+
+    <ListView
+        android:id="@+id/hist_contents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hist_filters">
+
+    </ListView>
+
+</RelativeLayout>

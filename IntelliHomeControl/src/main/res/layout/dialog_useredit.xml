@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.GridLayout xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:text="Username:"
+        android:textSize="18sp"
+        android:paddingRight="5dp"
+        grid:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/login_username"
+        grid:layout_gravity="fill_horizontal"/>
+
+    <TextView
+        android:text="Password:"
+        android:textSize="18sp"
+        android:paddingRight="5dp"
+        grid:layout_row="1"
+        grid:layout_column="0"
+        grid:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/login_password1"
+        android:password="true"
+        grid:layout_gravity="fill_horizontal"/>
+
+    <EditText
+        android:id="@+id/login_password2"
+        android:password="true"
+        grid:layout_gravity="fill_horizontal"
+        grid:layout_row="2"
+        grid:layout_column="1"/>
+
+</android.support.v7.widget.GridLayout>

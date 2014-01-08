@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntelliHomeControl</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="pref_network_modes_names">
+        <item>UDP with multicast discovery</item>
+        <item>UDP with broadcast discovery</item>
+        <item>Direct UDP</item>
+        <item>Direct TCP</item>
+    </string-array>
+
+    <string-array name="pref_network_modes_values">
+        <item>mcast</item>
+        <item>bcast</item>
+        <item>udp</item>
+        <item>tcp</item>
+    </string-array>
+
+    <string name="error_invalid_response">Invalid response received</string>
+    <string name="error_list_device_types">Failed to list device types</string>
+    <string name="error_list_devices">Failed to list devices</string>
+    <string name="error_parse_changed_entity">Failed to parse changed entity</string>
+    <string name="error_count_history">Failed to count history items</string>
+    <string name="error_list_history">Failed to list history items</string>
+    <string name="error_password_empty">Password can not be empty</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_list_users">Failed to list users</string>
+
+    <string name="rename_device">Rename device</string>
+
+    <string name="status_connected">Connected</string>
+    <string name="status_connected_login">Logged in as</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_disconnected_login">Logging in as</string>
+
+    <string name="user_create">Create user</string>
+    <string name="user_edit">Edit \'%1$s\' user</string>
+    <string name="user_confirm_delete">Confirm delete</string>
+    <string name="user_delete">Do you want to delete the user \'%1$s\'?</string>
+
+    <string name="postfix_devices">devices</string>
+    
+    <string name="navigation_status">Status</string>
+    <string name="navigation_devices">Devices</string>
+    <string name="navigation_history">History</string>
+    <string name="navigation_users">Users</string>
+
+    <string name="notification_content">IntelliHomeControl is running</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="mi_popup"/>
+    <item type="id" name="mi_popup_menu_resource"/>
+    <item type="id" name="mi_popup_listener"/>
+    <item type="id" name="mi_popup_menu_items"/>
+    <item type="id" name="item_entity"/>
+    <item type="id" name="item_command"/>
+
+</resources>
